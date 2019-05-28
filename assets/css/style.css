@@ -1,0 +1,94 @@
+html{
+    min-height: 100%;
+    /* height: 100%; */
+    position:relative;
+}
+
+/* this gives info on the body */
+body{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(../images/memphis-mini.png);
+    background-size: contain;
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* the nav bar */
+ nav{
+    position: relative;
+    /* right:0;
+    bottom: 40%; */
+} 
+
+.navbar{
+    padding: 0;
+    height: 4em;
+}
+
+/* this makes the nav bar horizonal */
+li{float: left;}
+
+/* this puts a | between each link */
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+    color:#777777;
+}
+
+
+.brandAligner{
+    /* position: absolute; */
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.brandbox{
+    /* position:absolute; */
+    height:100%;
+    width: 40%;
+    background-color: peachpuff;
+    padding: 2px;
+    padding-left: 52px;
+}
+
+.mynametitle{
+    left: 10px;
+    font-size: 45px;
+    color:white;
+}
+
+.headerlinks{
+    position:absolute;
+    right: 10%;
+}
+
+/* this helps keep things organized */
+/* also set up for the rest of the html */
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+
+/* font headers */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: xx-large;
+    filter: drop-shadow(1px 1px 0px black)
+}
+h2{
+    font-size: xx-large;
+    filter: drop-shadow(1px 1px 0px black)
+}
+/* link specifications */
+a {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   text-decoration: none;
+   color:#777777;
+}
+
