@@ -92,3 +92,37 @@ a {
    color:#777777;
 }
 
+/* main content  */
+.container{
+    background-color:peachpuff;
+    height:100px;
+    width:960px;
+    margin:10px auto;
+    left:0;
+    right:0;
+}
+
+
+/* footer content */
+.footer{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    background-color: #666666;
+    border-top-color: peachpuff;
+    border-top-style: solid;
+    border-top-width: 8px;
+    text-align: center;
+}
+.footerCopyright{
+    position: absolute;
+    bottom:20%;
+    left:0;
+    right:0;
+    margin: auto;
+    color: white;
+
+}
